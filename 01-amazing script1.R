@@ -1,8 +1,8 @@
 # my amazing script
 # modification 1 
-mydata<-read.csv(amaz-script.csv)
+mydata<-read.csv(amaz-script.csv) #import data
 #second modifocation
-summary<-summary(mydata)
+summary<-summary(mydata) #data summary
 
 #I hate all biscuits 
 
