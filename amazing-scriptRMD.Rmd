@@ -1,0 +1,46 @@
+---
+title: "Amazing script"
+author: "DeepakV"
+date: "15/01/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Very big title
+## big title
+### smaller
+
+- ffff
+- sssh
+- donk
+
+1. item one
+
+to bring in a R code
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+str(iris)
+
+```
+
+```{r echo=FALSE}
+ggplot(iris, aes(x= Sepal.Length, y= Sepal.Width, color = Species))+
+  geom_point()
+```
+
+#in case i don't want to run the code but code is there
+```{r eval=FALSE}
+ggplot(iris, aes(x= Sepal.Length, y= Sepal.Width, color = Species))+
+  geom_point()
+```
+
+
+
+
+
+
+
