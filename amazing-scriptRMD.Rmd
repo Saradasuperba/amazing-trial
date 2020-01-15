@@ -37,6 +37,14 @@ ggplot(iris, aes(x= Petal.Length, y= Petal.Width, color = Species))+
 ```
 
 ```{r echo=FALSE}
+ggplot(iris, aes(x=Petal.Length, y=Petal.Width, group=Species))+
+geom_boxplot(outlier.colour="red", outlier.shape=8,
+                outlier.size=4)
+
+```
+
+
+```{r echo=FALSE}
 iris
 ```
 
