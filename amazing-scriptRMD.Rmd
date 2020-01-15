@@ -36,7 +36,9 @@ ggplot(iris, aes(x= Petal.Length, y= Petal.Width, color = Species))+
   geom_point()
 ```
 
-
+```{r echo=FALSE}
+iris
+```
 
 
 
