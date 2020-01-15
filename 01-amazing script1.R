@@ -4,4 +4,6 @@ mydata<-read.csv(amaz-script.csv)
 #second modifocation
 summary<-summary(mydata)
 
-I hate biscuits
+#I hate all biscuits 
+
+#I hate unicorns
