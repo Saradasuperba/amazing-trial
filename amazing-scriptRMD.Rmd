@@ -19,19 +19,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1. Import libraries & data
 
-to bring in a R code
-
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 str(iris)
 
 ```
+2. Create plots
 
 ```{r echo=FALSE}
 ggplot(iris, aes(x= Sepal.Length, y= Sepal.Width, color = Species))+
   geom_point()
 ```
 
+```{r echo=FALSE}
+ggplot(iris, aes(x= Petal.Length, y= Petal.Width, color = Species))+
+  geom_point()
+```
 
 
 
