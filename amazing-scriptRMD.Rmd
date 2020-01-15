@@ -13,9 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ## big title
 ### smaller
 
-- ffff
-- sssh
-- donk
+- Import libraries 
+- Import data
+- Create plots
 
 1. item one
 
@@ -32,11 +32,7 @@ ggplot(iris, aes(x= Sepal.Length, y= Sepal.Width, color = Species))+
   geom_point()
 ```
 
-#in case i don't want to run the code but code is there
-```{r eval=FALSE}
-ggplot(iris, aes(x= Sepal.Length, y= Sepal.Width, color = Species))+
-  geom_point()
-```
+
 
 
 
